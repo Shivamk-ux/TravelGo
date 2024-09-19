@@ -116,4 +116,4 @@ For any questions or feedback, please reach out to:
 
 ---
 
-Feel free to replace `Shivam-ux`, `Shivam Kesharwani`, and `kesharwanishivam37@gmail.com` with actual values. Happy travels! 🌍✈️
+Feel free to replace `Shivamk-ux`, `Shivam Kesharwani`, and `kesharwanishivam37@gmail.com` with actual values. Happy travels! 🌍✈️
