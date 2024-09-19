@@ -183,10 +183,6 @@ function showBookingConfirmation(bookingDetails) {
     <div class="modal-content">
       <h2>Booking Confirmation</h2>
       <p>Your booking has been successfully confirmed!</p>
-      <p><strong>Booking ID:</strong> ${bookingDetails.id}</p>
-      <p><strong>Destination:</strong> ${bookingDetails.destination}</p>
-      <p><strong>Travel Date:</strong> ${formatDate(bookingDetails.travel_date)}</p>
-      <p><strong>Number of Travelers:</strong> ${bookingDetails.travelers}</p>
       <button id="closeModal" class="btn-primary">Close</button>
     </div>
   `;
