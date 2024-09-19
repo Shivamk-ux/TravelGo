@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TravelGo Services</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="services.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header class="glass-effect">
+    <div class="logo-container">
+      <h4>TravelGo</h4>
+    </div>
+    <button id="hamburger" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="nav-menu">
+      <a class="nav-links" href="index.html">Home</a>
+      <a class="nav-links" href="./about.html">About</a>
+      <a class="nav-links" href="./services.html">Services</a>
+      <a class="nav-links" href="./contact.html">Contact us</a>
+      <div class="search-nav">
+        <input type="text" id="navSearch" placeholder="Search destinations...">
+        <button id="navSearchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <div id="searchSuggestions" class="search-suggestions"></div>
+      </div>
+      <button id="darkModeToggle" class="mode-toggle">
+        <i class="fas fa-moon"></i>
+        <span>Dark Mode</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="services">
+      <div class="services-header">
+        <h1 style="font-size: 35px;">Our Services</h1>
+        <p>Discover the wide range of travel services we offer to make your journey unforgettable.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card glass-effect">
+          <i class="fas fa-plane"></i>
+          <h3>Flight Bookings</h3>
+          <p>Find the best deals on flights to your dream destinations.</p>
+        </div>
+        <div class="service-card glass-effect">
+          <i class="fas fa-hotel"></i>
+          <h3>Hotel Reservations</h3>
+          <p>Book comfortable accommodations for your stay.</p>
+        </div>
+        <div class="service-card glass-effect">
+          <i class="fas fa-map-marked-alt"></i>
+          <h3>Tour Packages</h3>
+          <p>Explore curated tour packages for unforgettable experiences.</p>
+        </div>
+        <div class="service-card glass-effect">
+          <i class="fas fa-car"></i>
+          <h3>Car Rentals</h3>
+          <p>Rent a car for convenient travel at your destination.</p>
+        </div>
+        <div class="service-card glass-effect">
+          <i class="fas fa-umbrella-beach"></i>
+          <h3>Travel Insurance</h3>
+          <p>Protect your trip with comprehensive travel insurance.</p>
+        </div>
+        <div class="service-card glass-effect">
+          <i class="fas fa-concierge-bell"></i>
+          <h3>24/7 Support</h3>
+          <p>Get assistance anytime during your journey.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="glass-effect">
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact TravelGo</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header class="glass-effect">
+    <div class="logo-container">
+      <h4>TravelGo</h4>
+    </div>
+    <button id="hamburger" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="nav-menu">
+      <a class="nav-links" href="index.html">Home</a>
+      <a class="nav-links" href="./about.html">About</a>
+      <a class="nav-links" href="./services.html">Services</a>
+      <a class="nav-links" href="./contact.html">Contact us</a>
+      <div class="search-nav">
+        <input type="text" id="navSearch" placeholder="Search destinations...">
+        <button id="navSearchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <div id="searchSuggestions" class="search-suggestions"></div>
+      </div>
+      <button id="darkModeToggle" class="mode-toggle">
+        <i class="fas fa-moon"></i>
+        <span>Dark Mode</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact glass-effect">
+      <div class="content">
+        <h1>Contact Us</h1>
+        <p>We're here to help you plan your next adventure. Reach out to us anytime!</p>
+      </div>
+      <div class="container">
+        <div class="contactInfo">
+          <div class="box">
+            <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+            <div class="text">
+              <h3>Phone</h3>
+              <p>+91 888-777-666</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+            <div class="text">
+              <h3>Email</h3>
+              <p>info@travelgo.com</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+            <div class="text">
+              <h3>Instagram</h3>
+              <a href="https://www.instagram.com/travelgo" target="_blank" rel="noopener noreferrer">@travelgo</a>
+            </div>
+          </div>
+        </div>
+        <div class="contactForm">
+          <form id="feedbackForm" action="/feedback" method="POST">
+            <h2>Send us a message</h2>
+            <div class="inputBox">
+              <input type="text" name="fullname" required="required" placeholder="Full Name">
+            </div>
+            <div class="inputBox">
+              <input type="email" name="email" required="required" placeholder="Email">
+            </div>
+            <div class="inputBox">
+              <textarea name="message" required="required" placeholder="Your message"></textarea>
+            </div>
+            <div class="inputBox">
+              <input type="submit" value="Send Message" class="btn-primary">
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="glass-effect">
+    <p>&copy; 2023 TravelGo. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

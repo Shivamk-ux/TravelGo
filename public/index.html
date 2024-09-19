@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TravelGo - Your Adventure Awaits</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header class="glass-effect">
+    <div class="logo-container">
+      <h4>TravelGo</h4>
+    </div>
+    <button id="hamburger" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="nav-menu">
+      <a class="nav-links" href="index.html">Home</a>
+      <a class="nav-links" href="./about.html">About</a>
+      <a class="nav-links" href="./services.html">Services</a>
+      <a class="nav-links" href="./contact.html">Contact us</a>
+      <div class="search-nav">
+        <input type="text" id="navSearch" placeholder="Search destinations...">
+        <button id="navSearchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <div id="searchSuggestions" class="search-suggestions"></div>
+      </div>
+      <button id="darkModeToggle" class="mode-toggle">
+        <i class="fas fa-moon"></i>
+        <span>Dark Mode</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <h1>Discover Your Next Adventure</h1>
+      <p>Explore amazing destinations around the world</p>
+    </div>
+
+    <div class="filter-container glass-effect">
+      <form id="filterForm">
+        <div class="filter-group">
+          <label for="minPrice">Min Price:</label>
+          <input type="number" id="minPrice" name="minPrice" min="0">
+        </div>
+        
+        <div class="filter-group">
+          <label for="maxPrice">Max Price:</label>
+          <input type="number" id="maxPrice" name="maxPrice" min="0">
+        </div>
+        
+        <div class="filter-group">
+          <label for="minRating">Min Rating:</label>
+          <select id="minRating" name="minRating">
+            <option value="">Any</option>
+            <option value="3">3+</option>
+            <option value="4">4+</option>
+            <option value="4.5">4.5+</option>
+          </select>
+        </div>
+        
+        <button type="submit" class="btn-primary">Apply Filters</button>
+      </form>
+    </div>
+
+    <h2>Featured Packages</h2>
+    <div id="packageContainer" class="card-container">
+      <!-- Packages will be dynamically inserted here -->
+    </div>
+  </main>
+
+  <footer class="glass-effect">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>About TravelGo</h3>
+        <p>Your ultimate travel companion for discovering amazing destinations worldwide.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./contact.html">Contact us</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Connect With Us</h3>
+        <div class="social-icons">
+          <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2023 TravelGo. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

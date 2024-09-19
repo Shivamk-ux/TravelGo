@@ -1,0 +1,139 @@
+.contact {
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 1200px;
+}
+
+.content {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.content h1 {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  font-size: 1.1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.contactInfo {
+  flex: 1 1 300px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+  border: 1px solid gray;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  min-width: 60px;
+  height: 60px;
+  background: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.text {
+  margin-left: 1rem;
+}
+
+.text h3 {
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.text p, .text a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.contactForm {
+  border: 1px solid gray;
+  padding: 17px;
+  border-radius: 10px;
+  flex: 1 1 400px;
+}
+
+.contactForm h2 {
+  color: var(--primary-color);
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.inputBox {
+  border: 1px solid gray;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.inputBox input, .inputBox textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--text-color);
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.inputBox input:focus, .inputBox textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.inputBox textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #2a75e6;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .contactInfo, .contactForm {
+    flex: 1 1 100%;
+  }
+}
