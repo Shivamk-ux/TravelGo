@@ -106,14 +106,14 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## Contact
 
 For any questions or feedback, please reach out to:
-- **Your Name**: your.email@example.com
+- **Shivam Kesharwani**: kesharwanishivam37@gmail.com
 
 ---
 
 ## Demo
 
-![TravelGo Screenshot](link-to-screenshot)
+![TravelGo Screenshot](image.png)
 
 ---
 
-Feel free to replace `yourusername`, `yourname`, and `your.email@example.com` with actual values. Happy travels! 🌍✈️
+Feel free to replace `Shivam-ux`, `Shivam Kesharwani`, and `kesharwanishivam37@gmail.com` with actual values. Happy travels! 🌍✈️
